@@ -9,7 +9,7 @@ cd docker-practice
 <pre>
 # Login For private Docker Repository
 docker login
-docker pull seongs70@/docker-practice
-docker run -p 80:80 -v /home/docker-practice/Project:/var/www/html seongs70@/docker-practice
+docker pull user156/docker-practice
+docker run -p 80:80 -v /home/docker-practice/Project:/var/www/html user156/docker-practice
 
 </pre>
